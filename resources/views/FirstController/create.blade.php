@@ -5,7 +5,7 @@
 
     @include('_errors')
 
-    <form method="post" action="/songs" enctype="multipart/form-data">
+    <form method="post" action="/songs" enctype="multipart/form-data" data-pjax>
     @csrf
         <input type="text" name='title' placeholder='Titre de la musique' required value="{{ old('title') }}">
         <input type="file" name='image' placeholder='image' required>

@@ -93,7 +93,11 @@
 </header>
 
 
+<div id="pjax-container">
 @yield('content')
+</div>
+
+<audio controls id="audio">
 
 <footer class="footer-section text-center">
 <div class="container">
@@ -112,7 +116,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </footer>
 
 
-<script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mixitup.min.js"></script>
 <script src="js/magnific-popup.min.js"></script>
@@ -128,6 +131,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </script>
 <script src="/js/jquery.js"></script>
 <script src="/js/divers.js"></script>
+<script src="/js/jquery.pjax.js"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"60ff4c163bdd0bf9","version":"2020.12.2","si":10}'></script>
 </body>
 </html>

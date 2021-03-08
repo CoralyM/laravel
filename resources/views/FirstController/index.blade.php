@@ -15,6 +15,4 @@
 
 @include("partials._songs")
 
-<audio controls id="audio">
-
 @endsection
